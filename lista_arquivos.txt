@@ -1,0 +1,209 @@
+Listagem de caminhos de pasta
+
+C:\USERS\BLOGD\DOCUMENTS\GITHUB\HAPPY-RESPOND-FORMS
+|   .gitattributes
+|   .gitignore
+|   bun.lockb
+|   components.json
+|   eslint.config.js
+|   index.html
+|   Inter,Roboto TTF Fonts.zip
+|   lista_arquivos.bat
+|   lista_arquivos.txt
+|   package-lock.json
+|   package.json
+|   postcss.config.js
+|   README.md
+|   tailwind.config.ts
+|   tsconfig.app.json
+|   tsconfig.json
+|   tsconfig.node.json
+|   vite.config.ts
+|   
++---public
+|       bus_group_travelling.jpg
+|       favicon.ico
+|       logo2.png
+|       og-image.png
+|       placeholder.svg
+|       
++---src
+|   |   App.css
+|   |   App.tsx
+|   |   index.css
+|   |   main.tsx
+|   |   vite-env.d.ts
+|   |   
+|   +---components
+|   |   |   ContactForm.tsx
+|   |   |   FormInput.tsx
+|   |   |   layout.tsx
+|   |   |   ThemeToggle.tsx
+|   |   |   
+|   |   +---layout
+|   |   |       Footer.tsx
+|   |   |       Layout.tsx
+|   |   |       Navbar.tsx
+|   |   |       
+|   |   +---passageiros
+|   |   |   |   DeletePassageiroButton.tsx
+|   |   |   |   PassageiroPaymentSection.tsx
+|   |   |   |   PassageiroPersonalInfoSection.tsx
+|   |   |   |   types.ts
+|   |   |   |   
+|   |   |   \---payment
+|   |   |           DateValuePairField.tsx
+|   |   |           FullPaymentSection.tsx
+|   |   |           index.ts
+|   |   |           InstallmentPaymentSection.tsx
+|   |   |           PaymentTypeSelector.tsx
+|   |   |           
+|   |   +---reports
+|   |   |       ReportLayout.tsx
+|   |   |       
+|   |   +---ui
+|   |   |       accordion.tsx
+|   |   |       alert-dialog.tsx
+|   |   |       alert.tsx
+|   |   |       aspect-ratio.tsx
+|   |   |       avatar.tsx
+|   |   |       badge.tsx
+|   |   |       breadcrumb.tsx
+|   |   |       button.tsx
+|   |   |       calendar.tsx
+|   |   |       card.tsx
+|   |   |       carousel.tsx
+|   |   |       chart.tsx
+|   |   |       checkbox.tsx
+|   |   |       collapsible.tsx
+|   |   |       command.tsx
+|   |   |       context-menu.tsx
+|   |   |       date-picker-input.tsx
+|   |   |       date-picker.tsx
+|   |   |       dialog.tsx
+|   |   |       drawer.tsx
+|   |   |       dropdown-menu.tsx
+|   |   |       form.tsx
+|   |   |       hover-card.tsx
+|   |   |       input-otp.tsx
+|   |   |       input.tsx
+|   |   |       label.tsx
+|   |   |       masked-input.tsx
+|   |   |       menubar.tsx
+|   |   |       navigation-menu.tsx
+|   |   |       numeric-input.tsx
+|   |   |       pagination.tsx
+|   |   |       popover.tsx
+|   |   |       progress.tsx
+|   |   |       radio-group.tsx
+|   |   |       resizable.tsx
+|   |   |       scroll-area.tsx
+|   |   |       select.tsx
+|   |   |       separator.tsx
+|   |   |       sheet.tsx
+|   |   |       sidebar.tsx
+|   |   |       skeleton.tsx
+|   |   |       slider.tsx
+|   |   |       sonner.tsx
+|   |   |       switch.tsx
+|   |   |       table.tsx
+|   |   |       tabs.tsx
+|   |   |       textarea.tsx
+|   |   |       toast.tsx
+|   |   |       toaster.tsx
+|   |   |       toggle-group.tsx
+|   |   |       toggle.tsx
+|   |   |       tooltip.tsx
+|   |   |       use-toast.ts
+|   |   |       
+|   |   \---viagens
+|   |       |   DeleteViagemDialog.tsx
+|   |       |   ListaViagens.tsx
+|   |       |   types.ts
+|   |       |   
+|   |       +---schemas
+|   |       |       viagemSchema.ts
+|   |       |       
+|   |       \---sections
+|   |               BrindesExtrasSection.tsx
+|   |               DespesasDiversasSection.tsx
+|   |               GeneralInfoSection.tsx
+|   |               HospedagemSection.tsx
+|   |               index.ts
+|   |               MotoristasSection.tsx
+|   |               OutrasReceitasSection.tsx
+|   |               PasseiosSection.tsx
+|   |               ResultadosSection.tsx
+|   |               SorteiosSection.tsx
+|   |               TaxasSection.tsx
+|   |               TransporteSection.tsx
+|   |               TrasladosSection.tsx
+|   |               
+|   +---hooks
+|   |   |   use-mobile.tsx
+|   |   |   use-toast.ts
+|   |   |   useCalculateValues.ts
+|   |   |   
+|   |   +---adiantamentos
+|   |   |       useAdiantamentoForm.ts
+|   |   |       
+|   |   +---calculations
+|   |   |       accommodationCalculations.ts
+|   |   |       expenseCalculations.ts
+|   |   |       index.ts
+|   |   |       revenueCalculations.ts
+|   |   |       vehicleCalculations.ts
+|   |   |       
+|   |   \---passageiros
+|   |           usePassageiroData.ts
+|   |           usePassageiroForm.tsx
+|   |           usePaymentCalculations.ts
+|   |           useViagemInfo.ts
+|   |           
+|   +---integrations
+|   |   \---supabase
+|   |           client.ts
+|   |           types.ts
+|   |           
+|   +---lib
+|   |       utils.ts
+|   |       
+|   +---pages
+|   |   |   Dashboard.tsx
+|   |   |   Index.tsx
+|   |   |   LoginPage.tsx
+|   |   |   LogoutPage.tsx
+|   |   |   NotFound.tsx
+|   |   |   PedidoAcesso.tsx
+|   |   |   RelatorioPagina.tsx
+|   |   |   ViagensEntrada.tsx
+|   |   |   
+|   |   +---forms
+|   |   |       AdiantamentosForm.tsx
+|   |   |       ClientesForm.tsx
+|   |   |       EditarViagemForm.tsx
+|   |   |       PassageiroForm.tsx
+|   |   |       PassageirosForm.tsx
+|   |   |       ViagensForm.tsx
+|   |   |       
+|   |   +---reports
+|   |   |       AdiantamentosRelatorio.tsx
+|   |   |       ClientesRelatorio.tsx
+|   |   |       FinanceiroRelatorio.tsx
+|   |   |       PassageirosRelatorio.tsx
+|   |   |       RelatoriosIndex.tsx
+|   |   |       ViagensRelatorio.tsx
+|   |   |       
+|   |   \---viagens
+|   |           NovaViagem.tsx
+|   |           
+|   \---utils
+|           dateUtils.ts
+|           exportUtils.ts
+|           form-helpers.ts
+|           masks.ts
+|           utils.ts
+|           
+\---supabase
+        config.toml
+        
